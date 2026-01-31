@@ -2,58 +2,29 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.3.
 
-## Development server
+**Quick Invoice Generator** is a lightweight, client-side web application designed to streamline the invoicing process. Create, customize, and download professional PDF invoices in seconds, with a real-time preview and mobile-friendly interface.
 
-To start a local development server, run:
+### Features
+- **Live Preview:** See changes instantly as you type.
+- **Multi-Currency Support:** Easily switch between EUR, USD, GBP, and more.
+- **Tax & Discount Calculations:** Automated subtotal, tax, and discount logic.
+- **Logo Upload:** Personalize your invoice with your business branding.
+- **Mobile Optimized:** A responsive design that allows editing even on the go.
+- **Privacy First:** Data is processed locally in your browser; no invoice data is stored on any server.
 
-```bash
-ng serve
-```
+###  Built With
+- **Angular 21+** - Core framework (Signals-based state management).
+- **Bootstrap 5** - Styling and responsive layout.
+- **jsPDF & html2canvas** - PDF generation engine.
+- **Google Fonts (Inter)** - Professional typography.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+###  How to use
+1. Enter your business and client details.
+2. Add items, quantities, and prices.
+3. Upload your logo.
+4. Click **Download PDF** to save your document.
 
 ## Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+ƎP Dev.
+https://emilioparodi.dev
