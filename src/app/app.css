@@ -57,7 +57,7 @@
 .btn-remove { color: #ef4444; border: none; background: transparent; font-size: 1.2rem; cursor: pointer; opacity: 0.5; }
 .btn-remove:hover { opacity: 1; }
 
-.tax-input { width: 40px; border: none; border-bottom: 1px solid #cbd5e1; background: transparent; text-align: center; font-weight: bold; }
+.tax-input { width: 40px; border: none; border-bottom: 1px solid #cbd5e1; background: transparent; text-align: center; font-weight: normal; }
 
 .invoice-page.cleaning {
   padding: 15mm !important;

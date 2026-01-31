@@ -19,7 +19,7 @@ export class App {
   clientName = 'John Doe';
   clientAddress = '45 Client Avenue, City';
 
-  invoiceNumber = '2026-001';
+  invoiceNumber = '01';
   invoiceDate = '2026-01-30';
   currencyCode = signal('EUR');
   taxRate = signal(22);
